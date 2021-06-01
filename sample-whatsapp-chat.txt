@@ -1,0 +1,54 @@
+31/05/21 10:19 - Fulano: Oi
+31/05/21 10:19 - Ciclano: Oi
+31/05/21 10:19 - Ciclano: Tudo bom?
+31/05/21 10:20 - Fulano: Tudo e você?
+31/05/21 10:22 - Ciclano: Estou um pouco triste.
+31/05/21 10:22 - Ciclano: Acabei de descobrir que o Shipping Hauer vai fechar.
+31/05/21 10:22 - Fulano: Sério?
+31/05/21 10:22 - Fulano: Achei que ia fechar uma parte dele só
+31/05/21 10:22 - Fulano: Não era isso?
+31/05/21 10:23 - Ciclano: Pelo que entendi, vai virar um centro médico.
+31/05/21 10:23 - Ciclano: Vai sobrar 4 restaurantes
+31/05/21 10:23 - Fulano: Ah já não tava muito legal lá mesmo
+31/05/21 10:23 - Fulano: Bom que o pessoal para de aglomerar lá
+31/05/21 10:24 - Ciclano: Isso é verdade
+31/05/21 10:24 - Ciclano: Mas lembrei de momentos legais que vivemos lá, haha
+31/05/21 10:25 - Fulano: Você tem idéia de qual lugar é será mais frequentado?
+31/05/21 10:28 - Ciclano: Olha acho que a Rua Trajano ou a Rua Itupava
+31/05/21 10:43 - Fulano: E o notebook novo, quando chega?
+31/05/21 10:43 - Ciclano: Hoje, já saiu pra entrega
+31/05/21 10:51 - Fulano: Como que tá o trabalho?
+31/05/21 10:53 - Ciclano: Está a todo vapor
+31/05/21 10:54 - Fulano: O que você tem feito no trabalho?
+31/05/21 11:00 - Ciclano: Hoje estou desenvolvendo uma ferramenta de captação de leads. Fiz o download do dataset de empresas da Receita Federal, tratei e converti para MySql. Agora estou criando as telinhas do sistema
+31/05/21 11:01 - Fulano: E como vai funcionar isso?
+31/05/21 11:05 - Ciclano: No tipo de busca principal, o usuário irá informar alguns parâmetros (Segmento/Região/Capital/Datas) e o sistema retornará uma lista de empresas, ao clicar em uma, ele terá acesso a todos os dados públicos da mesma
+31/05/21 11:13 - Fulano: O objetivo é a empresa entrar em contato com essas empresas?
+31/05/21 11:14 - Ciclano: Isso mesmo
+31/05/21 11:15 - Fulano: E a empresa como tá indo ?
+31/05/21 11:20 - Ciclano: Essa semana devemos colocar no ar um mvp de 2 sistemas. Esse de captação de Leads, e um de autoatendimento via WhatsApp. Usaremos a própria Alper como case para validar e ver o que será necessário alterar para comercializar. Se tudo der certo, em julho devemos começar as operações
+31/05/21 11:26 - Fulano: Como funciona o autoatendimento?
+31/05/21 11:40 - Ciclano: Por enquanto, no mvp, é apenas por menu e uma interface para o atendente dar continuidade no atendimento.
+31/05/21 11:46 - Fulano: O que é MVP?
+31/05/21 12:04 - Ciclano: É a versão mais simples de um produto
+31/05/21 12:09 - Fulano: Qual será o próximo projeto?
+31/05/21 12:12 - Ciclano: Por enquanto, iremos focar apenas nesses
+31/05/21 12:26 - Fulano: Quais tecnologias você está usando?
+31/05/21 12:32 - Ciclano: No CNPJ, PHP para o tratamento de dados, PHP também para o back, JavaScript com Vue para o front e GraphQl para a interface de comunicação
+31/05/21 12:34 - Ciclano: Para o autoatendimento, JavaScript em Node para o server, JavaScript com React para o front, WebSocket/Rest para interface de comunicação e PHP para o bot
+31/05/21 12:35 - Ciclano: Mas ainda não tem dashboard para gerenciamento no autoatendimento, apenas as telas de atendimento. Esse dashboard será feito com php+js/vue+graphql (igual o do cnpj)
+31/05/21 12:37 - Ciclano: Em breve, pretendo colocar Redis e Elasticsearch no cnpj
+31/05/21 12:39 - Ciclano: Ah, MySql nos 2
+31/05/21 12:41 - Fulano: Você já sabia todas essas linguagens?
+31/05/21 12:43 - Ciclano: Somente php/mysql, o restante aprendi enquanto desenvolvia
+31/05/21 12:43 - Fulano: Foi muito difícil aprender?
+31/05/21 12:46 - Ciclano: Não muito, tive o Google para me fornecer respostas para as dúvidas.
+31/05/21 12:46 - Ciclano: Foi mais trabalhoso do que difícil
+31/05/21 12:48 - Fulano: Como você escolhe as tecnologias que vai usar?
+31/05/21 12:55 - Ciclano: Faço uma analise de o que o sistema irá precisar a longo prazo, com base nisso, faço pesquisas para ver quais se encaixam melhor. Além disso, se eu estiver com tempo sobrando, tendo a preferir uma que eu não conheça.
+31/05/21 12:57 - Fulano: Quão difícil foi de fazer os projetos?
+31/05/21 12:59 - Ciclano: Pouco difícil, mais trabalhoso
+31/05/21 13:01 - Fulano: Qual a maior dificuldade pra você aprender uma tecnologia nova?
+31/05/21 13:08 - Ciclano: Arranjar tempo para focar no estudo, por isso tendo a encaixar os estudos no desenvolvimento de projetos
+31/05/21 13:23 - Fulano: Até mais
+31/05/21 13:27 - Ciclano: Até mais

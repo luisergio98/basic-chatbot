@@ -14,7 +14,7 @@ LANGUAGE = 'portuguese'
 RESET_BOT = True
 
 IMPORT_WHATSAPP_FILE = True
-WHATSAPP_IMPORT_FILE_PATH = 'whatsapp-chat.txt'
+WHATSAPP_IMPORT_FILE_PATH = 'sample-whatsapp-chat.txt'
 FIRST_WHATSAPP_USERNAME = 'Fulano'
 SECOND_WHATSAPP_USERNAME = 'Ciclano'
 
@@ -35,8 +35,11 @@ def process_whatsapp_line(line):
 def import_whatsapp_txt(file, first_username, second_username):
     if os.stat(file).st_size == 0:
         return []
+    try:
+        text = open(file, "r", encoding="utf8").read()
+    except():
+        return []
 
-    text = open(file, "r", encoding="utf8").read()
     lines = text.split('\n')
     last_message = ''
     train_array = []
